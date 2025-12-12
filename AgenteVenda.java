@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package amatur;
 
 import java.util.concurrent.Semaphore;
@@ -9,9 +6,8 @@ import java.util.concurrent.Semaphore;
 public class AgenteVenda implements Runnable {
     private final Onibus onibus;
     private final String nome;
-    private final String modo; // "part1","part2","part3","part4"
-    private final Semaphore sem; // pode ser null se não usado
-
+    private final String modo; 
+    private final Semaphore sem; 
     public AgenteVenda(Onibus onibus, String nome, String modo) {
         this(onibus, nome, modo, null);
     }
@@ -47,3 +43,4 @@ public class AgenteVenda implements Runnable {
         }
     }
 }
+
