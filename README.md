@@ -2,6 +2,8 @@
 
 UNIVERSIDADE FEDERAL DE RORAIMA.
 
+**Discente:** Sarah Caroline.
+
 **Disciplina:** Programação Orientada a Objetos (Java).   
 
 **Prof.:** Jean Bertrand.
