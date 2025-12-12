@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package amatur;
 
 import java.util.concurrent.Semaphore;
@@ -108,8 +104,8 @@ public class Onibus {
         }
     }
 
-    // getter para relatório / testes
     public int getAssentosDisponiveis() {
         return assentosDisponiveis;
     }
 }
+
