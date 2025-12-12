@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package amatur;
 
 import java.util.ArrayList;
@@ -100,3 +96,4 @@ public class Main {
         System.out.printf("Fim Parte IV - assentos finais: %d%n", onibus.getAssentosDisponiveis());
     }
 }
+
